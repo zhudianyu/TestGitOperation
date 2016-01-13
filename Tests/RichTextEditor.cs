@@ -11,7 +11,7 @@ public class RichTextEditor : MonoBehaviour
 		npcDialog.gameObject.SetActive(true);
 		npcDialog.transform.localScale = Vector3.one;
 		npcDialog.transform.position = Vector3.zero;
-		npcDialog.SetTitle("富文本编辑器");
+		npcDialog.SetTitle("富文本");
 	}
 
 	void OnGUI()
